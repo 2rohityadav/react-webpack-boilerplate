@@ -1,0 +1,43 @@
+{
+  "name": "react-webpack-boilerplate",
+  "version": "1.1.0",
+  "private": true,
+  "repository": "git@github.com:rohyadav/react-webpack-boilerplate.git",
+  "author": "Rohit Yadav",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint ./src --cache && echo \"No linting errors\"",
+    "lint:fix": "eslint ./src --fix"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "7.17.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-webpack-plugin": "^2.4.1",
+    "html-webpack-plugin": "^5.0.0-alpha.14",
+    "prettier": "^2.2.1",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hot-loader": "^4.13.0"
+  }
+}
